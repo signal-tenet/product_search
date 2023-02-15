@@ -1,0 +1,30 @@
+.prod-card {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  text-align: center;
+  border: 2px solid #6c7c7c;
+  border-radius: 10px;
+  max-width: 200px;
+  max-height: fit-content;
+  overflow: hidden;
+  background-color: #fffffb;
+}
+
+.prod-card img {
+  width: 10vw;
+  max-width: 100px;
+  padding-top: 8px;
+}
+
+.prod-card p {
+  font-weight: 600;
+  font-size: 1.4em;
+  padding: 5px;
+}
+
+.prod-card p span {
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(72, 67, 67);
+}
